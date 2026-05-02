@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: black;
+  padding: 20px;
+}
+
+.hero {
+  padding: 50px;
+  background: linear-gradient(to right, purple, black);
+}
+
+.btn {
+  background: gold;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.services, .trust, .payment {
+  padding: 40px;
+}
+
+.card {
+  background: #222;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: black;
+  padding: 15px;
+}
