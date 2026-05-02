@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   background: #0b0b0b;
   color: white;
   text-align: center;
@@ -9,37 +9,67 @@ body {
 header {
   background: black;
   padding: 20px;
+  border-bottom: 2px solid gold;
 }
 
 .hero {
-  padding: 60px 20px;
-  background: linear-gradient(to right, #6a0dad, black);
+  padding: 70px;
+  background: linear-gradient(135deg, purple, black);
 }
 
 .btn {
   background: gold;
   color: black;
-  padding: 15px 30px;
+  padding: 12px 25px;
   text-decoration: none;
+  border-radius: 25px;
   display: inline-block;
-  margin-top: 20px;
-  border-radius: 10px;
+  margin-top: 15px;
   font-weight: bold;
-  transition: 0.3s;
 }
 
-.btn:hover {
-  background: orange;
-}
-
-.about, .problems, .solution, .proof, .offer, .urgent {
+.about, .services, .pricing, .payment, .social, .urgent {
   padding: 40px 20px;
 }
 
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.price-box {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 0 15px gold;
+}
+
+.price-box.premium {
+  border: 2px solid gold;
+  transform: scale(1.05);
+}
+
 .price {
-  font-size: 30px;
+  font-size: 28px;
   color: gold;
-  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-links a {
+  background: black;
+  color: gold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 .urgent {
