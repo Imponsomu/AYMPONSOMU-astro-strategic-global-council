@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: Arial;
-  background: #111;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
   color: white;
   text-align: center;
 }
@@ -12,32 +12,42 @@ header {
 }
 
 .hero {
-  padding: 50px;
-  background: linear-gradient(to right, purple, black);
+  padding: 60px 20px;
+  background: linear-gradient(to right, #6a0dad, black);
 }
 
 .btn {
   background: gold;
   color: black;
-  padding: 12px 25px;
+  padding: 15px 30px;
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
-  border-radius: 5px;
-}
-
-.services, .trust, .payment {
-  padding: 40px;
-}
-
-.card {
-  background: #222;
-  margin: 10px;
-  padding: 20px;
   border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: orange;
+}
+
+.about, .problems, .solution, .proof, .offer, .urgent {
+  padding: 40px 20px;
+}
+
+.price {
+  font-size: 30px;
+  color: gold;
+  font-weight: bold;
+}
+
+.urgent {
+  background: red;
+  font-weight: bold;
 }
 
 footer {
   background: black;
-  padding: 15px;
+  padding: 20px;
 }
