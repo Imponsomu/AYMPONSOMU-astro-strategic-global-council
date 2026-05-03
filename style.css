@@ -81,3 +81,20 @@ footer {
   background: black;
   padding: 20px;
 }
+.astro-visual {
+  padding: 60px 20px;
+  background: radial-gradient(circle, #000000, #111);
+}
+
+.astro-img {
+  width: 95%;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px gold;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+
+.astro-img:hover {
+  transform: scale(1.05);
+}
